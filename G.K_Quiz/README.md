@@ -1,16 +1,22 @@
-# project_2
+We solve
+\[
+y'' + 9y =
+\begin{cases}
+\cos t, & 0 \le t < \tfrac{3\pi}{2},\\
+\sin t, & t \ge \tfrac{3\pi}{2},
+\end{cases}
+\quad y(0)=0,\;y'(0)=0.
+\]
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The solution is
+$$
+y(t) = 
+\begin{cases}
+\displaystyle
+\frac{1}{8}\bigl(\cos t - \cos(3t)\bigr),
+& 0 \le t < \tfrac{3\pi}{2},\\[1em]
+\displaystyle
+-\frac{1}{6}\cos(3t)\;+\;\frac{1}{8}\sin(3t)\;+\;\frac{1}{8}\sin t,
+& t \ge \tfrac{3\pi}{2}.
+\end{cases}
+$$
